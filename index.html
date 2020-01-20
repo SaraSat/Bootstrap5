@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        .fondo{background: blue; color: white;}
+        .borde{border:1px #000 solid}
+    </style>
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+    <!--Contenedor fluido-->
+    <div class="container-fluid fondo">
+        <p>Contenedor fluido</p>
+    </div>
+    <!--contenedores layout para distintos tamaños de pantalla-->
+    <div class="container fondo">
+      <p>Contenedor por defecto</p>
+    </div>
+    <div class="container-sm fondo">
+      <p>Contenedor para pantallas pequeñas</p>
+    </div>
+    <div class="container-xl fondo">
+      <p>Contenedor para pantallas muy grandes</p>
+    </div>
+    <!-- Grid 12 columnas -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xl borde">1</div>
+            <div class="col-xl borde">2</div>
+            <div class="col-xl-6 borde">3</div>
+        </div>
+    </div>
+    <p></p>
+    <div class="d-flex align-items-center
+    bg-info  p-1 m-2 mt-5 w-100" style="height: 400px;">
+      <div class="p-5 m-2 bg-light border border-dark w-25">a
+      </div>
+      <div class="p-5 m-2 bg-light border border-dark w-25">b
+      </div>
+      <div class="p-5 m-2 bg-light border border-dark w-25">c
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+    crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
