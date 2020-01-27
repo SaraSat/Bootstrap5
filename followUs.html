@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Asociación la Luna</title>
+    <title>followUs</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
@@ -46,7 +46,7 @@
                         <a class="nav-link" href="whoWeAre.html">¿Quiénes somos?</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="followUs.html">Siguenos en...</a>
+                        <a class="nav-link active" href="followUs.html">Siguenos en...</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="formulario.html">Nos importas</a>
@@ -77,36 +77,114 @@
             </div><br><br>
             <div class="card-deck">
                 <div class="card">
-                    <img src="imagenes/facebook.png" class="card-img-top img-fluid" alt="card Image cap">
+                   <a href="" data-toggle="modal" data-target="#exampleModal"><img src="imagenes/facebook.png" class="card-img-top img-fluid" alt="card Image cap"></a> 
                     <div class="card-body">
                         <h5 class="card-title">Facebook</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                             additional
                             content. This card has even longer content than the first to show that equal height action.
                         </p>
-                        <a class="btn btn-primary" href="#" role="button">Link</a>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalFace">
+                            Ver más información
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="ModalFace" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Facebook</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+                                <div class="modal-body">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque soluta dolor, 
+                                    temporibus impedit voluptas ducimus distinctio. Minima repellat, fuga velit, quam ullam, 
+                                    necessitatibus deserunt consequuntur voluptatum praesentium aliquid sunt voluptas!</p>
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <!-- Fin modal-->
                     </div>
                 </div>
                 <div class="card">
-                    <img src="imagenes/whatapp.png" class="card-img-top img-fluid" alt="...">
+                   <a href="" data-toggle="modal" data-target="#exampleModal"><img src="imagenes/whatapp.png" class="card-img-top img-fluid" alt="..."></a>
                     <div class="card-body">
                         <h5 class="card-title">WhatsApp</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                             additional
                             content. This card has even longer content than the first to show that equal height action.
                         </p>
-                        <a class="btn btn-primary" href="#" role="button">Link</a>
-                    </div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalWhat">
+                                Ver más información
+                            </button>
+                            
+                            <!-- Modal -->
+                            <div class="modal fade" id="ModalWhat" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">WhatsApp</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque soluta dolor, 
+                                        temporibus impedit voluptas ducimus distinctio. Minima repellat, fuga velit, quam ullam, 
+                                        necessitatibus deserunt consequuntur voluptatum praesentium aliquid sunt voluptas!</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <!-- Fin modal-->
+                        </div>
                 </div>
                 <div class="card">
-                    <img src="imagenes/insta.png" class="card-img-top img-fluid" alt="...">
+                <a href=""  data-toggle="modal" data-target="#exampleModal"><img src="imagenes/insta.png" class="card-img-top img-fluid" alt="..."></a>
                     <div class="card-body">
                         <h5 class="card-title">Instagram</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                             additional
                             content. This card has even longer content than the first to show that equal height action.
                         </p>
-                        <a class="btn btn-primary" href="#" role="button">Link</a>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalInsta">
+                                Ver más información
+                            </button>
+                            
+                            <!-- Modal -->
+                            <div class="modal fade" id="ModalInsta" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Instagram</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque soluta dolor, 
+                                        temporibus impedit voluptas ducimus distinctio. Minima repellat, fuga velit, quam ullam, 
+                                        necessitatibus deserunt consequuntur voluptatum praesentium aliquid sunt voluptas!</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <!-- Fin modal-->
                     </div>
                 </div>
             </div>
