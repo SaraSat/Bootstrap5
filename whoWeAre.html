@@ -19,14 +19,17 @@
         .borde {
             border: 1px #000 solid;
         }
+        body{
+            position: relative;
+        }
     </style>
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#menu" >
 
     <div class="container">
         <!--Navegador-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="menu">
             <!-- Image and text -->
             <a class="navbar-brand" href="#">
                 <img src="imagenes/LunaS.png" width=" 50" height="50" class="d-inline-block align-top" alt="">
@@ -42,10 +45,17 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="whoWeAre.html">¿Quiénes somos?</a>
-                    </li>
-                    <li class="nav-item">
+                    <li class="nav-item ">
+                                <a class="-item" href="whoWeAre.html">Quienes Somos?</a></li>
+                        </li>
+                        <li class="nav-item ">
+                                <li class="nav-item "><a class="-item" href="whoWeAre.html#historia">Galeria</a></li>
+                        </li>
+                        <li class="nav-item ">
+                                <li class="nav-item "><a class="-item" href="whoWeAre.html#historia">Nuestra Historia</a></li>
+                        </li>
+
+                        <li class="nav-item">
                         <a class="nav-link" href="followUs.html">Siguenos en...</a>
                     </li>
                     <li class="nav-item">
@@ -67,8 +77,8 @@
         </nav>
     </div>
     <!--Fin Navegador-->
-
-    <div class="container mt-5">
+    
+    <div class="container mt-5" id="historia">
         <div class=" col-sm-12 col-md-12 col-lg-12 col-xl-12">
             <h1 class="mt-3">¿Quiénes somos?</h1>
         </div>
@@ -82,6 +92,20 @@
                         pariatur animi
                         quaerat quam, odio sunt, quos fugit eligendi quod ea! Sed, laudantium. Non, mollitia eum?
                     </p>
+                    <p class=" mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum in vel corporis
+                            sequi
+                            explicabo
+                            pariatur animi
+                            quaerat quam, odio sunt, quos fugit eligendi quod ea! Sed, laudantium. Non, mollitia eum?
+                        </p> 
+                        <p class=" mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum in vel corporis
+                                sequi
+                                explicabo
+                                pariatur animi
+                                quaerat quam, odio sunt, quos fugit eligendi quod ea! Sed, laudantium. Non, mollitia eum?
+                            </p>
+           
+                
                 </section>
             </div>
             <div class="card col-12 col-sm-6 col-md-6 col-lg-3 col-xl-12 mt-3">
@@ -91,13 +115,21 @@
                         explicabo
                         pariatur animi
                         quaerat quam, odio sunt, quos fugit eligendi quod ea! Sed, laudantium. Non, mollitia eum?</p>
+                        <p class=" mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum in vel corporis
+                                sequi
+                                explicabo
+                                pariatur animi
+                                quaerat quam, odio sunt, quos fugit eligendi quod ea! Sed, laudantium. Non, mollitia eum?
+                            </p>
+        
                 </section>
             </div>
             </div>
         </div>
     </div>
     <!--Slideshow-->
-    <div class=" carousel slide mt-4" data-ride="carousel" id="carousel">
+    <div id="galeria">
+    <div class=" carousel slide mt-4" data-ride="carousel" id="carouse">
         <ol class="carousel-indicators">
           <li  data-target=#carousel data-slide-to="0" class="active"></li>
           <li data-target=#carousel data-slide-to="1"></li>

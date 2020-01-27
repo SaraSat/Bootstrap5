@@ -19,14 +19,15 @@
         .borde {
             border: 1px #000 solid;
         }
+      
     </style>
 </head>
 
-<body>
+<body >
 
     <div class="container">
         <!--Navegador-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" >
             <!-- Image and text -->
             <a class="navbar-brand" href="index.html">
                 <img src="imagenes/LunaS.png" width=" 50" height="50" class="d-inline-block align-top" alt="">
@@ -39,11 +40,11 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link active" href="index.html">Inicio<span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="whoWeAre.html">¿Quiénes somos?</a>
+                    <li class="nav-item ">
+                           <a class="nav-link" href="whoWeAre.html">Quienes Somos?</a></li>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="followUs.html">Siguenos en...</a>
@@ -80,8 +81,37 @@
                 <p>It uses utility classes for typography and spacing to space content out within the larger container.
                 </p>
                 <p class="lead">
-                    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-                </p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalInicio">
+                                Ver más información
+                            </button>
+                            
+                            <!-- Modal -->
+                            <div class="modal fade" id="ModalInicio" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog " role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Asociacion La Luna</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque soluta dolor, 
+                                        temporibus impedit voluptas ducimus distinctio. Minima repellat, fuga velit, quam ullam, 
+                                        necessitatibus deserunt consequuntur voluptatum praesentium aliquid sunt voluptas!</p>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta modi beatae alias aut eaque rerum,
+                                             repellendus autem, laudantium accusamus amet odit consequatur, 
+                                             veritatis commodi possimus repudiandae a tempore velit hic.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <!-- Fin modal-->
+                    </p>
             </div>
         </div>
     </div>
